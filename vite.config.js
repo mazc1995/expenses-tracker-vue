@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: 'https://mazc1995.github.io/expenses-tracker-vue',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
